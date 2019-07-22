@@ -49,7 +49,6 @@ Node *tree(int amount)
 	return node;
 }
 
-// 
 
 int Hush(char *stroka)
 {
