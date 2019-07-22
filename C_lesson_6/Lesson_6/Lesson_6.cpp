@@ -2,8 +2,8 @@
 //
 
 #include "pch.h"
-// урок 6
-// Савенко Вадим
+// Lesson 6
+// SAVENKO VADIM
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -39,7 +39,7 @@ Node *tree(int amount)
 	}
 	else
 	{
-		int value = 0;
+		int value = arr[i++]; 
 		node = (Node*)malloc(sizeof(Node));
 		node->data = value;
 		node->left = tree(amount / 2);
@@ -49,6 +49,7 @@ Node *tree(int amount)
 	return node;
 }
 
+//TASK WITH HUSH
 
 int Hush(char *stroka)
 {
